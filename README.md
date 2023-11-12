@@ -35,7 +35,7 @@ pip install beautifulsoup4 pytube pandas requests
 **Usage Example:**
 
 ```bash
-python youtube_playlist_to_excel.py "https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID"
+python scrapper.py "https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID"
 ```
 
 Replace `"https://www.youtube.com/playlist?list=YOUR_PLAYLIST_ID"` with the actual YouTube playlist link you want to process.
