@@ -4,8 +4,8 @@ from pytube import Playlist,YouTube
 import pandas as pd
 
 # Replace 'YOUR_PLAYLIST_URL' with the actual URL of your YouTube playlist
-p = '';
-p = input();
+p = 'https://www.youtube.com/watch?v=69ZCDFy-OUo&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=4'
+#p = input();
 vlinks=Playlist(p)
 print("\n Playlist name=",vlinks.title)
 print("\n No. of videos=",vlinks.length)
